@@ -5,7 +5,7 @@ let count = 0;
 function incrementCount()
 {
     count = count + 1;
-    newcount.innerText = count;
+    newcount.textContent = count;
 }
 
 incrementCount();
